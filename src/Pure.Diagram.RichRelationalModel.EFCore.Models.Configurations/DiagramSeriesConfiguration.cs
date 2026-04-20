@@ -5,9 +5,9 @@ using Pure.Primitives.Abstractions.EFCore.ValueComparers;
 
 namespace Pure.Diagram.RichRelationalModel.EFCore.Models.Configurations;
 
-public sealed record SeriesConfiguration : IEntityTypeConfiguration<SeriesEFCoreModel>
+public sealed record DiagramSeriesConfiguration : IEntityTypeConfiguration<DiagramSeriesEFCoreModel>
 {
-    public void Configure(EntityTypeBuilder<SeriesEFCoreModel> builder)
+    public void Configure(EntityTypeBuilder<DiagramSeriesEFCoreModel> builder)
     {
         _ = builder.HasKey(x => x.Id);
 
