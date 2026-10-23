@@ -7,6 +7,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.2.2.0] — 2026-10-23
+
+- Maintenance release: bumped Pure.Primitives.Abstractions.EFCore.Converters to 0.1.0-preview.0.2.0, packed README into the package, and derived assembly versions from the release tag.
+
 ## [0.1.0-preview.2.1.0] — 2026-06-23
 
 - Maintenance release: dependency and build updates.
